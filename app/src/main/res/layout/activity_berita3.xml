@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita3">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="251dp"
+        android:layout_height="139dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164"
+        app:srcCompat="@drawable/berita3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="349dp"
+        android:layout_height="260dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text='Bagi Yuni, membangun atau membuat sekolah Paud, merupakan bagian kecil dari kehidupannya, sebagai bentuk kepeduliannya terhadap kampung halaman. "Membuat Paud itu hal terkecil yang saya lakukan. Sebaiknya bisa bermanfaat untuk orang lain. Membangun sekolah memang hal kecil, tujuannya saya itu untuk anak yang tidak mampu. Walaupun kenyataan banyak yang mampu," ucapnya. Untuk bayaran sekolah Paudnya, kakak kandung dari penyanyi Krisdayanti itu tidak mentargetkan harga tinggi. Bahkan, Yuni hanya meminta uang bayaran sebesar Rp. 5 ribu. "Karena setiap melihat anak kecil sekolah dimana. Saya masih menugaskan guru yang belum bisa sekolah dijemput sekolah disana. Saya pengin ada tempat penitipan anak biar bisa belajar," ujar Yuni Shara. '
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="242dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Buat Paud di Malang, Yuni Shara Ingin Anak-Anak Bisa Sekolah"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

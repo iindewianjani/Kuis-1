@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kuis Berita</string>
+    <string name="Judul">Berita Terkini</string>
+    <string name="berita1">judul berita</string>
+    <string name="berita2">judul berita</string>
+    <string name="berita3">judul berita</string>
+    <string name="baca">baca berita</string>
+</resources>
